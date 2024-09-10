@@ -52,23 +52,22 @@ const MobileNav = ({ user }: MobileNavProps) => {
                       <Link
                         href={item.route}
                         key={item.label}
-                        className={cn("sidebar-link", {
+                        className={cn("mobilenav-sheet_close w-full", {
                           "bg-bank-gradient": isActive,
                         })}
                       >
-                        <div className="relative size-6">
-                          <Image
-                            src={item.imgURL}
-                            alt={item.label}
-                            fill
-                            className={cn({
-                              "brightness-[3] invert-0": isActive,
-                            })}
-                          />
-                        </div>
+                        <Image
+                          src={item.imgURL}
+                          alt={item.label}
+                          width={20}
+                          height={20}
+                          className={cn({
+                            "brightness-[3] invert-0": isActive,
+                          })}
+                        />
                         <p
-                          className={cn("sidebar-label", {
-                            "!text-white": isActive,
+                          className={cn("text-16 font-semibold text-black-2", {
+                            "text-white": isActive,
                           })}
                         >
                           {item.label}
@@ -77,8 +76,10 @@ const MobileNav = ({ user }: MobileNavProps) => {
                     </SheetClose>
                   );
                 })}
+                User
               </nav>
             </SheetClose>
+            Footer
           </div>
         </SheetContent>
       </Sheet>
