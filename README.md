@@ -28,7 +28,7 @@
 - Plaid, Dwolla
     <p>
     <a href="https://plaid.com/">
-        <img width="48" height="48" src="https://www.logo.wine/a/logo/Plaid_(company)/Plaid_(company)-Logo.wine.svg" />
+        <img width="48" height="48" src="https://www.logo.wine/a/logo/Plaid_(company)/Plaid_(company)-White-Dark-Background-Logo.wine.svg" />
     </a>
     <a href="https://www.dwolla.com/">
         <img width="48" height="48" src="https://www.svgrepo.com/show/508422/dwolla.svg" />
@@ -37,7 +37,7 @@
 - ShadCN
     <p>
     <a href="https://ui.shadcn.com/">
-        <img width="48" height="48"  src="https://seeklogo.com/images/S/shadcn-ui-logo-EF735EC0E5-seeklogo.com.png?v=638421451470000000"/>
+        <img width="48" height="48"  src="https://ia800801.us.archive.org/14/items/github.com-shadcn-ui-ui_-_2023-08-09_16-03-10/cover.jpg"/>
     </a>
     </p>
 
