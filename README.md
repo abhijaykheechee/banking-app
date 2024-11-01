@@ -1,5 +1,7 @@
 # **Banking App**
 
+A financial SaaS platform built with Next.js that connects to multiple bank accounts, displays transactions in real-time, allows users to transfer money to other platform users, and manages their finances altogether.
+
 ## **Tech Stack**
 
 - Next.js, TypeScript
